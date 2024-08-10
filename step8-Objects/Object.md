@@ -15,10 +15,15 @@ We also access property by the following syntax as follows:-
 ## Giving Type
 We also give the type by using type keyword . We put the type inside it. 
 It's example is writtren in the 
+<<<<<<< HEAD
 ## using object
  Using Object Before Using Object , We also declare variable with type in the example   .
  We use multiple object then use in the new object.
 
+=======
+## Using object
+ Using Object Before Using Object , We also declare variable with type in the example
+>>>>>>> 133c90b7812cd2ec51b87df0dfa09ed2e2a5d798
 
 
 
