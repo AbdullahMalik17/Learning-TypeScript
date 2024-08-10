@@ -20,10 +20,20 @@ It's example is writtren in the
  Using Object Before Using Object , We also declare variable with type in the example   .
  We use multiple object then use in the new object.
 
-=======
 ## Using object
  Using Object Before Using Object , We also declare variable with type in the example
->>>>>>> 133c90b7812cd2ec51b87df0dfa09ed2e2a5d798
+
+### Methods
+The object in which the functions are used are methods.
+
+### Important 
+We Use type inside a type to different the property of an Object.
+
+### Passing Option type 
+We also put the optional type by using ? before colon sign otherwise the typescript create an error.
+### union of type 
+We also use union of type . We use it when we have a condition.
+
 
 
 
