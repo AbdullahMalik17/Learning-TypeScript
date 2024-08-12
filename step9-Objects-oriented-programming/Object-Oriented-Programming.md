@@ -29,6 +29,6 @@ Before the TypeScript , We write a code of lines  without any sequence that crea
 - abstract.
 - encapsulation.
 - inheritance.
-- polymorphizan.
+- polymorphism.
 
 
