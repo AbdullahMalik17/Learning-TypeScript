@@ -1,4 +1,7 @@
-// We don't put any significant value
+/*
+In Abstract ,we use public property. 
+We don't give any significant value.
+*/
 abstract class country{
     public name:string;                                 
     public language:string;                             
@@ -29,9 +32,12 @@ class OIC extends country{
       population:number,
       populationrate:number   
     ){
-        super(name,language,population,populationrate);       //super function is just the renaming of constructor  
+        super(name,language,population,populationrate);         
         
-        }
+        }/*
+        super is part of inheritance that inherit the properties of parent to child.It rename the class .
+        super is used in a different ways . 
+        */ 
         public populationGrowthRate(): number {
             this.population=this.population *this.populationrate
             return this.population      
