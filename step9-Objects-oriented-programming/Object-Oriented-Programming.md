@@ -1,4 +1,4 @@
-# object Oriented Programming 
+# Object Oriented Programming 
  It is a type of programming tht basis on object.
  ## Classes
 The method of making object is called classes . Classes are the blue print(map) of the object.
