@@ -1,5 +1,5 @@
 class introduction{
-    name!:string;
+    name:string="Abdullah";
     father:string="Athar"
 }
  let intro=new introduction();

@@ -5,4 +5,4 @@ type userdetails={
     Age:number;
     Class:string;
 } 
-// It is better to use the object after this.
+// It is better to use the object after giving type

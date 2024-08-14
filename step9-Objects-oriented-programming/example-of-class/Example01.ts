@@ -2,8 +2,8 @@ class point{
     a:number;
     b:number;
     constructor(a:number,b:number){
-        this.a=a
-        this.b=b
+    this.a=a;
+    this.b=b;
     }
 }
 let number1=new point(6,7);

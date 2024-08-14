@@ -1,5 +1,5 @@
-# object 
-Object is a set of key value pair that are sepaated with comma.
+# Object 
+Object is a set of key value pair that are separated with comma.
 This an unprimitive datatype . Except primitive data type is called object.
 ## Advantage 
 They are used to store the  multiple values in a single variable.
