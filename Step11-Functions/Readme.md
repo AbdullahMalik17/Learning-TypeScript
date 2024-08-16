@@ -1,5 +1,5 @@
 # Function 
-Function i a set of statement that is executed when they are invoked . 
+Function is a set of statement that is executed when they are invoked . 
 It is neccessary to provide the type of parameter of function . 
 ## Required Paramater
 We make the  required parameter  by the simple way like JavaScript.
