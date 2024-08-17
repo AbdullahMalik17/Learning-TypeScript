@@ -13,8 +13,13 @@
   Then you should check npm is installed or not . To check it , we run the command ,
   
        <br><b>npm -v </b></br>
-  later , you should install typescript in the core .To  install typescript run the command ,
+  later , you should install typescript in the core .To  install typescript run the command:-
+  
        <br><b> npm intall typescript@latest -g
+After this we should add the tsconfig.json . In it we set the conversion properties of  JavaScript are decided.We make it by the followig command:-
+
+     <br><b> tsc --init
+     
 ## Features
 - TypeScript can be transfered into JavaScript.
 - TypeScript is a Javascript.

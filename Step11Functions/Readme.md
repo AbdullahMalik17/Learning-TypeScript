@@ -18,6 +18,9 @@ It syntax as follows:-
 ## Return type
 A function can also return a value. Typescript automatically infer the type is called implecite type. We give the type of return is called explecite.
 ## Giving function type to variable
-Giving function type to variable , we use arrow function to give type . See Example7.ts  
+Giving function type to variable , we use arrow function to give type . See Example7.ts 
+## Function Overload 
+Two or more functions ave same name but different parameter.This is a function o object oriented programming.
+We cann't use more names of function in JavaScript because it is not an object oriented programming. 
 
 
