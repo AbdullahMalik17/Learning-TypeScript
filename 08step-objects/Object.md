@@ -11,7 +11,9 @@ We also put object inside an object is called nested object.
 We also access property by the following syntax as follows:-
 
     object-name.property-name
+Another way as follows:-
 
+    object-name["property-name"];
 ## Giving Type
 We also give the type by using type keyword . We put the type inside it. 
 It's example is writtren in the [Givng type](https://github.com/Abdullah90-ty/Learning-TypeScript/blob/main/step8-Objects/Example01.ts)
