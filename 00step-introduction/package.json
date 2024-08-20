@@ -1,0 +1,15 @@
+{
+  "name": "00step-introduction",
+  "version": "1.0.0",
+  "description": "Few years ago , the assumption of JavaScript is that it is a client side programming language.\r    For this purpose , the programmer should learn the two languages i.e Java and JavaScript .\r    Early days ago , the developer thought that the JavaScript might work as a server side language. \r    But there are  many complexities in JavaScript ( like oop) . To resolve this complexity , we use the TypeScript\r    In order to write the JavaScript in an accurate manner is called TypeScript .\r  ## Installation\r   Firstly we should download the [node](https://nodejs.org/en/download/package-manager)\r   After downloading , we test whether node is download or not. To run the command ,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.4.1"
+  }
+}
