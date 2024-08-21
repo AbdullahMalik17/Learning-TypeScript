@@ -23,6 +23,8 @@ Then , we install the package.json file which help us to install more packages f
 
   <br><b> npm init -y
 
+### Why we need package.json 
+- We need it when we install some packages and export our packages to the npm.
 Then , we install the depencies(means we install the package) ,For this run the following command:-
    <br><b> npm i @types/node -D    
 ## Features
