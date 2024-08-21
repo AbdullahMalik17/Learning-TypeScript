@@ -9,30 +9,22 @@
   Firstly we should download the [node](https://nodejs.org/en/download/package-manager)
   After downloading , we test whether node is download or not. To run the command ,
      
-   <br> <b>node -v </b> </br>
+     node -v 
   Then you should check npm is installed or not . To check it , we run the command ,
   
-   <br><b>npm -v </b></br>
+     npm -v 
   later , you should install typescript in the core .To  install typescript run the command:-
   
-  <br><b> npm intall typescript@latest -g
+     npm intall typescript@latest -g
 After this we should add the tsconfig.json . In it we set the conversion properties of  JavaScript are decided.We make it by the followig command:-
 
-  <br><b> tsc --init
-
+    tsc --init
 Then , we install the package.json file which help us to install more packages from npm . Sometime ago, we don't get input from user in command prompt . To face this problem , someone contribute the node package manager .There are many packages in npm that helps us to solve the problem . We make it , by the follwing syntax:-
 
   <br><b> npm init -y
-  
-### Why do we need package.jon
-- We  need package.json , when we install any package .
-- We need package.json , when we export our project to the npm.
 
 Then , we install the depencies(means we install the package) ,For this run the following command:-
-   
-  <br><b> npm i @types/node -D 
-  
-
+   <br><b> npm i @types/node -D    
 ## Features
 - TypeScript can be transfered into JavaScript.
 - TypeScript is a Javascript.
