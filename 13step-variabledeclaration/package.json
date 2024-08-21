@@ -1,0 +1,12 @@
+{
+  "name": "13step-variabledeclaration",
+  "version": "1.0.0",
+  "description": "A variable can be declared by three ways as follows:-\r - var\r - let \r - const\r ## Block Scope\r Block Scope means variable can be used only in curly braces.\r let and const are both block scope.\r ## let\r The value of variable in the let can also be change or reassign .\r ## const\r In which the value of variable or array can not be assign .\r But the value of array can be change by method (like push(),pop()).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
