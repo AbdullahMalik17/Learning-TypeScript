@@ -23,6 +23,11 @@ After this we should add the tsconfig.json . In it we set the conversion propert
 Then , we install the package.json file which help us to install more packages from npm . Sometime ago, we don't get input from user in command prompt . To face this problem , someone contribute the node package manager .There are many packages in npm that helps us to solve the problem . We make it , by the follwing syntax:-
 
   <br><b> npm init -y
+  
+### Why do we need package.jon
+- We  need package.json , when we install any package .
+- We need package.json , when we export our project to the npm.
+
 Then , we install the depencies(means we install the package) ,For this run the following command:-
    
   <br><b> npm i @types/node -D 
