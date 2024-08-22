@@ -16,5 +16,18 @@ It is used to separate a tasks.
 ## default keyword
 default keyword is used to default the export . Each file has only one default export .
 When we import the default variable , we don't use the curly braces.
+## Import Anilus
+we also change the name of import variable by using as keyword with name . 
+## Changing in tsconfig.json
+We change somethings in  tsconfig because our previous tsconfig make a difficult js file . Changes as follows:-
+
+   "target":"es2022",
+   "module":"NodeNext",
+   "moduleResolution":"NodeNext"
+## Changing in package.json
+Some changes are as follows:-
+
+   "type":"module"
+
 
   

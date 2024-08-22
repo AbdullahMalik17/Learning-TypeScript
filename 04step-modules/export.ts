@@ -1,4 +1,4 @@
-export function name(name){
+export function name(name:string){
     console.log(name)
 }
 // We should also add multiple export .
