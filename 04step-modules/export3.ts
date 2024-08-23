@@ -1,3 +1,4 @@
-export let a=3;
+ let a=3;
 export let b=4;
 export let c=5;
+export default a

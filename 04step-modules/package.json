@@ -1,13 +1,15 @@
 {
   "name": "04step-modules",
   "version": "1.0.0",
-  "main": "import.TS",
-  "type":"modules",
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
 }
