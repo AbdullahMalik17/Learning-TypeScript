@@ -21,13 +21,13 @@ we also change the name of import variable by using as keyword with name .
 ## Changing in tsconfig.json
 We change somethings in  tsconfig because our previous tsconfig make a difficult js file . Changes as follows:-
 
-   "target":"es2022",
-   "module":"NodeNext",
-   "moduleResolution":"NodeNext"
+      "target":"es2022",
+      "module":"NodeNext",
+      "moduleResolution":"NodeNext"
 ## Changing in package.json
 Some changes are as follows:-
 
-   "type":"module"
+     "type":"module"
 
 
   
