@@ -2,6 +2,7 @@
   "name": "chalk",
   "version": "1.0.0",
   "main": "index.js",
+  "description": "",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +10,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "@types/typescript": "^2.0.0",
     "inquirer": "^10.1.8"

@@ -1,4 +1,4 @@
-function charint(input:(number|string)):(string|number){
+function charint(input:(number|string)):(number|string){
     return input;
 }
 let numOrchar=charint("Abdullah")

@@ -4,7 +4,11 @@ function nicknames(callback:(index:number)=>string){  // We use this method in t
         console.log(nickname[i])
     }
 }
-function callback(index:number){
+function callback(index:number){ //we return array in the callback function 
     return nickname[index]
 }
-nicknames(callback)
+nicknames(callback) // output
+// Abdullah
+// bidda
+//  topper
+// rasgullah
