@@ -25,3 +25,4 @@ if(operation==="Addition"){
 } else{
     console.log(num1/num2)
 }
+

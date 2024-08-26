@@ -6,3 +6,5 @@ type userdetails={
     Class:string;
 } 
 // It is better to use the object after giving type
+type data=String|number
+type data1=data|undefined   // infer at .
