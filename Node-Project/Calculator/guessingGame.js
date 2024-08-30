@@ -7,7 +7,6 @@ let {guess} = await inquirer.prompt([{
 let n=Math.random() 
 let b=(n*10)
 let c =Math.round(b)
-Number(c)
 if(guess===c){
     console.log("Congratulation , You on the burger .")
 } else {

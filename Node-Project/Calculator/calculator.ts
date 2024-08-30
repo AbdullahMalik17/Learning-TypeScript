@@ -1,4 +1,5 @@
 import inquirer from "inquirer";
+import { sum,sub,div,mul } from "./function.js"; 
 let {num1,num2,operation}=await inquirer.prompt([{
     type:"number",
     name:"num1",
@@ -16,11 +17,11 @@ let {num1,num2,operation}=await inquirer.prompt([{
     choices:["Addition","Subtraction","Division","Multiplication"]
 }])
 if (operation==="Addition"){
-    console.log(num1+num2)
+    console.log("The addition of their numbers is ",sum(num1,num2))
 } else if(operation==="Substraction"){
-    console.log(num1-num2)
+    console.log("The subtraction of their number is ",sub(num1,num2))
 }else if(operation==="Multiplication"){
-    console.log(num1*num2)
+    console.log("The multiplication of their number is ",mul(num1,num2))
 } else{
-    console.log(num1/num2)
+    console.log("The division of their number is ",div(num1,num2))
 }

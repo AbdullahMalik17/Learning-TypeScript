@@ -1,8 +1,11 @@
 import inquirer from "inquirer";
- let answer = await inquirer.prompt([
+async function age(){ 
+let answer = await inquirer.prompt([
     {
-     type:"number",
+     type:"input",
      name:"Age",
      message:"What is your age",
    }
  ])
+}
+age();
