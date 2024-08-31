@@ -1,6 +1,8 @@
 # Function 
 Function is a set of statement that is executed when they are invoked . 
 It is neccessary to provide the type of parameter of function . 
+## Anonymous function 
+When we give the name of function with declaration .  See Example11.ts
 ## Required Paramater
 We make the  required parameter  by the simple way like JavaScript.
 See Example1.ts 
@@ -16,8 +18,12 @@ It syntax as follows:-
     business logic 
   }
 ## Return type
-A function can also return a value. Typescript automatically infer the type is called implecite type. We give the type of return is called explecite.
-## Giving function type to variable
+A function can also return a value. Typescript automatically infer the type . 
+we give return type to use colon .
+### Explicite type
+It is used when we use the anonmous function . We use it by using a colon with variable name . 
+See Example12.ts
+## lambda functuion
 Giving function type to variable , we use arrow function to give type . See Example7.ts 
 ## Function Overload 
 Two or more functions ave same name but different parameter.This is a function o object oriented programming.

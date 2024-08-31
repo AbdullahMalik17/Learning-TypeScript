@@ -26,7 +26,14 @@ Then , we install the package.json file which help us to install more packages f
 ### Why we need package.json 
 - We need it when we install some packages and export our packages to the npm.
 Then , we install the depencies(means we install the package) ,For this run the following command:-
-   <br><b> npm i @types/node -D    
+   <br><b> npm i @types/node -D   
+
+# Converting from Javascript
+We convert typescript from javasript by writing tsc . 
+we use the following command to convert this code in javascript ,
+
+    tsc -w
+    
 ## Features
 - TypeScript can be transfered into JavaScript.
 - TypeScript is a Javascript.

@@ -1,22 +1,16 @@
 {
   "name": "calculator",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "app.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Muhammad Abdullah",
+  "license": "MIT",
   "description": "",
   "dependencies": {
-    "inquirer": "^10.1.8",
-    "node-banner": "^1.4.0",
-    "save": "^2.9.0"
-  },
-  "devDependencies": {
-    "@types/inquirer": "^9.0.7",
-    "gradient-string": "^2.0.2"
+    "@inquirer/prompts": "^5.3.8"
   }
 }

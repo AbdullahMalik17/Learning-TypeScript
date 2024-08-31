@@ -5,3 +5,6 @@
 let Haleema:(Name:string)=>string=(Name)=>{
     return Name
 }
+Haleema("Haleema")
+console.log(Haleema)
+// we return any value .

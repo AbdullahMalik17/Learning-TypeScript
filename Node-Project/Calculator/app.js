@@ -2,13 +2,17 @@ import { number } from "@inquirer/prompts";
 import { select } from "@inquirer/prompts";
 async function calculator() {
     let num1 = await number({
-        message: "Enter First Number ....",
+        message: "Enter First Number:",
+        validate: function (value) {
+            const isValid = !isNaN;
+            return isValid || 'Please enter a valid number';
+        }
     });
     let num2 = await number({
-        message: "Enter Second Number ...."
+        message: "Enter Second Number:"
     });
-    let operation = await select({
-        message: "Enter opperation .....",
+    var operation = await select({
+        message: "Enter Operation That you want to perform:",
         choices: [
             { value: "Addition",
                 name: "Addition"
@@ -24,8 +28,8 @@ async function calculator() {
             }
         ]
     });
-    console.log(num1);
-    console.log(num2);
-    console.log(operation);
+    if (operation === "Addition") {
+        console.log("The Addition of two number is ", num1 + num2);
+    }
 }
 calculator();
