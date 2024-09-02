@@ -14,7 +14,7 @@ Default parameter  automatically give the default value. When we give value to p
 ## Rest Paraneter 
 We use rest parameter , when we don't know how many input are given . It makes the array of input.This parameter should used in last of list of parameter.
 It syntax as follows:-
-  function point(...name[]:type){
+  function point(...name:type[]){
     business logic 
   }
 ## Return type
