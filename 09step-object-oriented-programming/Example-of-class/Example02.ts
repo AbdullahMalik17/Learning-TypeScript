@@ -6,7 +6,7 @@ class bolean{           // Because boolean is a keyword.
         this.y=y;
     }
     printxAndy(){
-        console.log("Print X"+this.x+"Print Y"+this.y)   // This is method of object.
+        console.log("Print X:"+this.x+"\nPrint Y"+this.y)   // This is method of object.
     }
 }
 let bool=new bolean(true,false)

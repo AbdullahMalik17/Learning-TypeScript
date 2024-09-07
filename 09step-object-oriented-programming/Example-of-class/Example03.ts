@@ -24,7 +24,7 @@ public abstract populationGrowthRate():number;
 /*
  Constructor function helps us to give the value of object , when we write about it
 */
-// We extend the Islamic country with contry
+// We extend the Islamic country with country
 class OIC extends country{
     constructor(
       name:string,

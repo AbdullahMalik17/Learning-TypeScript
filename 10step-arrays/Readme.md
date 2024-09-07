@@ -20,3 +20,4 @@ Rest is mostly used in function parameter. It is used in function when we don't 
 We add multiple element in the array but in to pull we add the specific number of array.See Example7.ts
 We also make the to pull of variable.See Example8.ts 
 ## join method
+It is used to join each index with input (input means that value which we enter in the parenthesis .)
