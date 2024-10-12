@@ -25,6 +25,7 @@ public abstract populationGrowthRate():number;
  Constructor function helps us to give the value of object , when we write about it
 */
 // We extend the Islamic country with country
+// Abstract is used when we want tyo extend the class .
 class OIC extends country{
     constructor(
       name:string,

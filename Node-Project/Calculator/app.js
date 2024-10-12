@@ -1,16 +1,14 @@
-import { input } from "@inquirer/prompts";
+import { number } from "@inquirer/prompts";
 import { select } from "@inquirer/prompts";
 async function calculator() {
-    let num1 = await input({
-        message: "Enter First Number:",
-        validate: function (value) {
-            const isValid = !isNaN;
-            return isValid || 'Please enter a valid number';
-        }
+    let num1 = await number({
+        message: "Enter First Number:"
     });
-    let num2 = await input({
+    num1 = num1 ?? 0;
+    let num2 = await number({
         message: "Enter Second Number:"
     });
+    num2 = num2 ?? 0;
     var operation = await select({
         message: "Enter Operation That you want to perform:",
         choices: [
@@ -28,7 +26,7 @@ async function calculator() {
             }
         ]
     });
-    Number(num1);
+    Number(num2);
     Number(num2);
     if (operation === "Addition") {
         console.log("The sum of two number is ", num1 + num2);

@@ -4,10 +4,10 @@ We use underscore before the variable name. Private data is unaccessible
 */
 class Point{
     public name:string; 
-    private _Pakistansecurity:string;
-    constructor(name:string,_Pakistansecurity:string){
+    private Pakistansecurity:string;
+    constructor(name:string,Pakistansecurity:string){
         this.name=name;
-        this._Pakistansecurity=_Pakistansecurity
+        this.Pakistansecurity=Pakistansecurity
     }
 }
 let Pakistan=new Point("Weapon","Pakistan has 85 Atom bomb");

@@ -1,0 +1,16 @@
+{
+  "name": "bank",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Muhammad Abdullah Athar",
+  "license": "MIT",
+  "description": "In which , we also put the password and the account number.  ",
+  "dependencies": {
+    "@inquirer/prompts": "^7.0.0"
+  }
+}
