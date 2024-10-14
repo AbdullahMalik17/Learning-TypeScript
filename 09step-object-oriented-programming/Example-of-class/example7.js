@@ -2,8 +2,6 @@
 var acc = [["Abdullah", 5172], ["haleema", 6777]];
 var bank = /** @class */ (function () {
     function bank(account1, password1) {
-        this.account1 = account1;
-        this.password1 = password1;
     }
     Object.defineProperty(bank.prototype, "name", {
         get: function () {
