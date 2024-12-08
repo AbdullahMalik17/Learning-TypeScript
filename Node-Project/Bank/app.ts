@@ -1,6 +1,8 @@
 import { number } from "@inquirer/prompts";
 import { select } from "@inquirer/prompts";
-var account_number= await number({
+ async function bank(){
+
+  var account_number= await number({
     message:"Enter Your Account Number ...."
 })
 account_number??0;
@@ -40,7 +42,15 @@ if(account_number===123){
 }else{
     console.log("Please Enter Corect Account Number")
 }
-
+ }
+setTimeout(() => {
+    bank()
+}, 3000);
+const showBanner = require('node-banner');
+ 
+(async () => {
+    await showBanner('Athar bank', 'Enter Requirement to withdraw many ');
+})();
 
 
 

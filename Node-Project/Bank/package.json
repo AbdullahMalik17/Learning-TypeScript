@@ -11,6 +11,7 @@
   "license": "MIT",
   "description": "In which , we also put the password and the account number.  ",
   "dependencies": {
-    "@inquirer/prompts": "^7.0.0"
+    "@inquirer/prompts": "^7.0.0",
+    "node-banner": "^1.4.0"
   }
 }
